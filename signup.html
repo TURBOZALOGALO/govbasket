@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&family=Montserrat:wght@400;500;800&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="signup_images/logo.svg" alt="logo">
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="white-bg"></div>
+        <div class="gray-bg"></div>
+        <div class="log-in">
+          <div class="log-in__panel">
+            <button class="log-in__log-in-btn">Вход</button>
+            <button class="log-in__sign-up-btn">Регистрация</button>
+          </div>
+          <div class="log-in__email">
+            <h4 class="log-in__email-title">Почта</h4>
+            <input class="log-in__email-input" type="text" placeholder="Почта">
+          </div>
+          <div class="log-in__password">
+            <h4 class="log-in__password-title">Пароль</h4>
+            <input class="log-in__password-input" type="text" placeholder="Пароль">
+          </div>
+          <a class="log-in__forgot-pass" href="#">Забыли пароль?</a>
+        </div>
+
+        <div class="sign-up hidden">
+          <div class="sign-up__panel">
+            <button class="sign-up__log-in-btn">Вход</button>
+            <button class="sign-up__sign-up-btn">Регистрация</button>
+          </div>
+          <div class="sign-up__email">
+            <h4 class="sign-up__email-title">Почта</h4>
+            <input class="sign-up__email-input" type="text" placeholder="Почта">
+          </div>
+          <div class="sign-up__password">
+            <h4 class="sign-up__password-title">Пароль</h4>
+            <input class="sign-up__password-input" type="text" placeholder="Пароль">
+          </div>
+          <a class="log-in__forgot-pass" href="#">Забыли пароль?</a>
+        </div>
+        <div class="sign-up__password-repeat">
+          <h4 class="sign-up__password-title">Повторите пароль</h4>
+          <input class="sign-up__password-input" type="text" placeholder="Повторите пароль">
+        </div>
+        <button class="btn">
+          <span class="btn__text">Вход</span>
+        </button>
+
+      </div>
+    </main>
+    <script src="signup_js/main.js"></script>
+  </body>
+</html>
